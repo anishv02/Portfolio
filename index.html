@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Anishv's Portfolio</title>
+  <script src="https://kit.fontawesome.com/fc0ac7d6e4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="./Logo-removebg-preview.png" class="logo">
+      <img src="./_DSC0152-removebg-preview (1).png" class="photo">
+      <ul>
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-text">
+      <p>Software Developer by passion, Musician by Heart!</p>
+      <h1>Hey, I am <span>Anishv</span><br>Rawal from India</h1>
+    </div>
+  </div>
+</div>
+<!-- --------About-------- -->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="./about.jpg">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>Software Engineer with excellent problem solving skills and ability to perform well in a team. I want to get associated with a progressive organization where I can utilize and improve my theoretical and technical knowledge towards the growth of the organization and self-development.</p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-solid fa-database"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-solid fa-code"></i>
+            <li><span>Programming Languages</span><br>HTML Javascript Python C C++ SQL</li>
+            <li><span>Technologies/Libraries</span><br>CSS Numpy Pandas Matplotlib</li>
+            <li><span>IT Constructors</span><br>Data Structures and Algorithims OOPS DBMS</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>Junior Development Intern | MNC – Tata Consultancy Services    Jan ’23 – Mar ’23 </span><br> Worked for a client project in the finance department where we provided a web-dashboard for data visualization. </li>
+            <li><span>TechEra | Edtech – Machine Learning and Python Mentor          Dec ’21 – Present </span><br>Taken up to 250+ Live sessions on Python and Basics of Machine Learning through python libraries. </li>
+            <li><span>Scoobi Dapp | Edtech – Product Head                            Jan ’22 – Mar ’22 </span><br>Designed UI/UX; Developed an application to verify and evaluate quality score of 1 billion YouTube videos. </li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>B.Tech</span><br>Medicaps University Indore 2019-2023<br>85.5%</li>
+            <li><span>Class XII</span><br>National Public School 2018-2019<br>82.8%</li>
+            <li><span>Class X</span><br>Sahodaya Convent School 2016-2017<br>89.5</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- -------Services-------- -->
+<div id="services">
+  <div class="container">
+    <h2 class="sub-title">My Services</h2>
+    <div class="services-list">
+      <div>
+        <i class="fa-sharp fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>I am a skilled web designer offering exceptional designs that combine aesthetics and functionality. With an eye for detail and a focus on user experience, I create visually appealing websites tailored to your brand. Let me bring your web design vision to life.</p>
+        <a href="#">Learn More</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-chalkboard-user"></i>
+        <h2>Python/C++ Tutor</h2>
+        <p>I am a skilled web designer offering exceptional designs that combine aesthetics and functionality. With an eye for detail and a focus on user experience, I create visually appealing websites tailored to your brand. Let me bring your web design vision to life.</p>
+        <a href="#">Learn More</a> 
+      </div>
+    </div>
+  </div>
+</div>
+<!-- -----protfolio------ -->
+<div id="portfolio">
+  <div class="container">
+    <h2 class="sub-title">My Work</h2>
+    <div class="work-list">
+      <div class="work">
+        <img src="./dashboard.jpg" class="im">
+        <div class="layer">
+          <h3>Web Dashboard</h3>
+          <p>The web app gives you all the facilities to <br> vizualize your data in proper form</p>
+          <a href="https://github.com/anishv02/project-work/tree/master/project-work"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./dashboard-2.jpg" class="im">
+        <div class="layer">
+          <h3>Python Tutor</h3>
+          <p>Taken upto 400+ live sessions on basics of <br> Python.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./IMG_20230428_233206_424.webp" class="im">
+        <div class="layer">
+          <h3>Flautist</h3>
+          <p>An aspiring flutist, dedicatedly honing my skills and pursuing mastery in the art of flute playing.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+  </div>
+</div>
+<!-- -------Contact------- -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>rawalanishv@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>9179176837</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/anishvrawal/?igshid=ZGUzMzM3NWJiOQ%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com/anishv02"><i class="fa-brands fa-github"></i></a>
+          <a href="https://twitter.com/rawalanishv"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/anishvrawal/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="./AnishvRawal2023.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+
+  </div>
+</div>
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+</body>
+</html>
+
