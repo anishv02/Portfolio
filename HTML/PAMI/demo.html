@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <div class="dropdown">
+            <label for="account">Account:</label>
+            <button 
+            class="btn btn-secondary dropdown-toogle"
+            type="button"
+            id="dropDownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            onClick={handleSelectAccountClick}
+            >
+            Select Accounts
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropDownMenuButton">
+                {showSelectAll && (
+                    <button onClick={(e) => {handleSelectAllAccount(e)}}>
+                        Select </br> All
+                    </button>
+                )}
+                {showSelectAll && (
+                    <button onClick={(e) => {handleDeSelectAllAccount(e)}}>
+                        DeSelect </br> All
+                    </button>
+                )}
+            </div>
+        </div>
+    </body>
+</html>

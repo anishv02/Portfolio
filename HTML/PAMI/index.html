@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Dashboard</h1>
+	</div>
+	<div class="sidebar">
+		<ul>
+			<li onclick="changeHeader(this)">Profitability Report</li>
+		    <li onclick="changeHeader(this)">Operating Matrix</li>
+		</ul>
+	</div>
+	</div>
+	<div class="filters" id="dashboard-filters">
+        <div class="filter-select">
+            <label for="superset">Superset:</label>
+            <select name="superset" id="superset">
+                <option value="pami">Pami</option>
+            </select>
+        </div>
+        <div class="filter-select">
+            <label for="account">Account:</label>
+            <select name="account" id="account">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+            </select>
+        </div>
+        <div class="filter-select">
+            <label for="contractid">Contract ID:</label>
+            <input type="text" id="contractid" name="contractid">
+        </div>
+        <div class="filter-select">
+            <label for="location">Location:</label>
+            <select name="location" id="location">
+                <option value="offsite">Offsite</option>
+                <option value="onsite">Onsite</option>
+            </select>
+        </div>
+    <div class="filter-select">
+            <label for="Select Period">Select Period:</label>
+            <select name="location" id="location">
+                <option value="Monthly">Monthly</option>
+                <option value="Quaterly">Quaterly</option>
+            </select>
+        </div>
+            <button class="submit-btn">Submit</button>
+    </div>
+
+	<label>Months
+		<input
+	</label>
+	<table id="dashboard-table">
+		<tr>
+			<th>Particulars</th>
+			<th>Q1</th>
+			<th>Q2</th>
+			<th>Q3</th>
+			<th>Q4</th>
+		</tr>
+		<tr>
+			<td>OFL</td>
+			<td>A</td>
+			<td>123456</td>
+			<td>Onsite</td>
+			<td>Monthly</td>
+			<td>$10,000</td>
+		</tr>
+		<tr>
+			<td>IND Level</td>
+			<td>A</td>
+			<td>789012</td>
+			<td>Offsite</td>
+			<td>Quaterly</td>
+			<td>$25,000</td>
+		</tr>
+		<tr>
+			<td>Realization</td>
+			<td>B</td>
+			<td>345678</td>
+			<td>Onsite</td>
+			<td>Monthly</td>
+			<td>$15,000</td>
+		</tr>
+		<tr>
+			<td>BA Count Total Percentage</td>
+			<td>C</td>
+			<td>901234</td>
+			<td>Offsite</td>
+			<td>Quaterly</td>
+			<td>$20,000</td>
+		</tr>
+    <tr>
+			<td>Senior Junior Percentage</td>
+			<td>C</td>
+			<td>901234</td>
+			<td>Offsite</td>
+			<td>Quaterly</td>
+			<td>$20,000</td>
+		</tr>
+    <tr>
+			<td>Trainee Percentage</td>
+			<td>C</td>
+			<td>901234</td>
+			<td>Offsite</td>
+			<td>Quaterly</td>
+			<td>$20,000</td>
+		</tr>
+	</table>
+
+   
+
+
+</body>
+</html>
